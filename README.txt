@@ -7,7 +7,7 @@ How to Download:
 
 Another way to download!
 Click the link provided below:
-https://mega.nz/#!bF8zhQ5D!iklxwe92fXxDEVlqguygl8_df2F-mmPjCfPKsZuAUDU
+https://mega.nz/#!nc8DjYDQ!mshYuUS_icxajFQ93wtIHgvZnLjIbR03e8OMtvwFZwk
 _______________________
 
 What is WAMS:
