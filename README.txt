@@ -1,42 +1,53 @@
-WAMS
-A batch file writer. Write scripts in batch using only buttons. This program is still in alpha at 1.1.1.1 so be weary of shortcomings.
+												                          WAMS ALPHA 2.7.5.2:
+	`											                                Manual
 
 
+How to Download:
 
-ŴΔΜŞ ₳Ⱡ₱Ⱨ₳
+Click the link provided below:
+https://mega.nz/#!bF8zhQ5D!iklxwe92fXxDEVlqguygl8_df2F-mmPjCfPKsZuAUDU
+_______________________
 
-
-
-Wams will be updated again around the beginning of Feburary. 
-
-
-Name:
-
-W: Windows
-A: Automated
-M: Maker
-S: Script
-
-
-Help
+What is WAMS:
+WAMS stands for, Windows Automated, Maker, Script. This means that 
+you can use this program to write windows based batch scripts. You could make
+windows based viruses, malware, tools, or games. WAMS allows you to make these 
+previously mentioned scripts without almost any pre-existing knowledge of programming;
+however, WAMS is currently in Alpha. 
+WAMS will be fully released by June 2020.
 
 
-Starting WAMS
+How to Declare Variables/Keys:
 
-Run WAMS.exe
+Keys and variables are the same thing; Keys and variables are words or phrases that stand for a value such as an
+integer, string, or a float. Variables can be declared within the properties tab in the tool bar. The second console,
+to the right of the main log, is the variable console. This console tells you the variables you currently have declared
+and their values. To access your variables, use -(the name of your variable); this will replace the - and the name of your
+variable with the value of your variable.
 
+Background Programs:
+What are they?
+Background programs are pre-existing batch scripts that run within your program. There are
+two methods of running background programs in WAMS, the first way is where you have the
+absolute path. This kind of path is when you have the entire path of the file; this kind of path
+will allow the file to only work in the specific location described by the path. The second way
+to declare a background program is using a relative path. To use a relative path, add -n to the end
+of the name of the batch script you are attempting to run as a background program. This allows 
+the program to be run from any drive on the computer, as long as the file is the same directory as 
+the batch script calling the background program.
 
-Error on the filemaker
+What is a Package?
 
-If you encounter an error on the filemaker program ignore it and try clicking the submit button again.
+A package is pre-written code. This can be used to accomplish tasks that may not be accomplishable otherwise.
+Packages have no file extension. All you have to do to add the package to your program is add the file to the packages
+folder. Next restart WAMS. Now check under the packages tab.
 
+The Future of Packages:
 
-Delete Feature:
+Upcoming updates should allow for the creation and deletion of packages in the code;
+however, currently I am encountering problems with it.
 
-In the script editor do not delete something if you are at 2 lines. This for some reason creates blank lines and will un sync the delete program to the script reader. Or a solution to this is to open up the commandlog folder, look for the text file that shares the name of your file + log.txt and start it. Now delete any blank lines. Be careful not to delete anything else.
-
-DO NOT DELETE FILES:
-Certain files within the WAMS directory should not be deleted or tampered with. These files include anything except the files in the outputs folder where your programs are stored(I would suggest only deleting files through the filemaker). Moving your file from the outputs folder is fine, just don't move it to any of the other folders in the WAMS directory; However, if you do delete a file, just re-download WAMS. Or if you can put the file back in its correct place.
-
-WAMS.exe Startup Error:
-If you get an error when starting WAMS, it is most likely because of an error with the icon. If this is the case move proico.ico to the icon folder. Now try starting it.
+When is it ok to move my script?
+You can move your file outside of the outputs folder when ever you are not editing it.
+Once your script leaves the output folder WAMS cannot make changes to it.
+Do not edit any of the other files in the other folders, as those can lead to an error.
